@@ -9,6 +9,11 @@ group :development do
 end
 #gem 'pg'
 
+group :development do
+  gem 'taps'
+  gem 'rvm'
+end
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
